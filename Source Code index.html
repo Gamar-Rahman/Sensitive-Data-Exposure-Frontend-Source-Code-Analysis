@@ -1,0 +1,35 @@
+<html><head>
+    <title>How websites work</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="html-code-box">
+        <div id="html-bar">
+            <span id="html-url">https://vulnerable-site.com</span>
+        </div>
+        <div class="theme" id="html-code">
+            <div class="logo-pos"><img src="img/logo_white.png"></div>
+            <p id="login-msg">Incorrect credentials. <i class="hint" onclick="viewSourceCode()">Try looking at the source code</i> or pressing CTRL+U at the same time.</p>
+            <form method="post" id="form" autocomplete="off">
+                <div class="form-field">
+                    <input class="input-text" type="text" name="username" placeholder="Username..">
+                </div>
+                <div class="form-field">
+                    <input class="input-text" type="password" name="password" placeholder="Password..">
+                </div>
+                <button onclick="login()" type="button" class="login">Login</button>
+                <!--
+                    TODO: Remove test credentials!
+                        Username: admin
+                        Password: pssswd
+                -->
+            </form>
+            <div class="footer">Copyright Â© Vulnerable Website</div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{"version":"2024.11.0","token":"8131a75048a9466ca61b8a59c3385e25","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}" crossorigin="anonymous"></script>
+
+
+</body></html>
