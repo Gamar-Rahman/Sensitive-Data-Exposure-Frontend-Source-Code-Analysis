@@ -102,8 +102,8 @@ Sensitive-Data-Exposure-Demo/
 
                 <!--
                     TODO: Remove test credentials!
-                        Username: admin
-                        Password: pssswd
+                        Username: -----------------
+                        Password: -----------------
                 -->
             </form>
             <div class="footer">Copyright © Vulnerable Website</div>
